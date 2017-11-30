@@ -23,7 +23,7 @@ test:
 deployment:
   pypi:
     branch: /release.*/
-    owner: floydhub
+    #owner: floydhub
     commands:
       - echo "[distutils]" > ~/.pypirc
       - echo "index-servers =" >> ~/.pypirc
